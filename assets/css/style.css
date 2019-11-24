@@ -1,0 +1,63 @@
+/*Par Kouadio Elisée N'GUESSAN -> eliseekn@gmail.com*/
+
+.showcase {
+	background: url('/terrepromise_new/assets/img/showcase.jpg') no-repeat;
+	background-position: center;
+	height: 577px;
+	padding: 140px 100px;
+	color: white;
+}
+
+span a.w3-bar-item {
+	font-size: 14px;
+}
+
+div span.w3-right {
+	padding-right: 20px;
+}
+
+div.showcase h1 {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.showcase hr {
+	width: 200px;
+	margin: auto;
+	border-width: 2px;
+	border-color: darkgreen;
+}
+
+.section_header hr {
+	width: 100px;
+	margin: auto;
+	border-width: 2px;
+	border-color: orange;
+}
+
+div a.link {
+	text-decoration: none;
+}
+
+div a.link:hover {
+	text-decoration: underline;
+}
+
+div #dropdown_menu {
+	margin-left: -100px;
+}
+
+.page_header {
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+	.showcase {
+		padding: 50px 0;
+	}
+	
+	footer {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+}
